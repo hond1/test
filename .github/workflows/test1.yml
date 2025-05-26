@@ -3,6 +3,6 @@ on:
 
 jobs:
   build: 
-    runs-on: [self-hosted, linux, x64]
+    runs-on: [self-hosted]
     steps: 
       - run: echo "Hello build!
